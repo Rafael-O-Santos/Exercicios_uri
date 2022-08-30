@@ -6,7 +6,7 @@ namespace uri_1000
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine("Hello Word!");
         }
     }
 }
