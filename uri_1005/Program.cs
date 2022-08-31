@@ -13,7 +13,7 @@ namespace uri_1005
             double prova2 = B * 7.5;
             double media = (prova1 + prova2) / 11;
 
-            Console.WriteLine("MEDIA = " + media.ToString("F1", CultureInfo.InvariantCulture));
+            Console.WriteLine("MEDIA = " + media.ToString("F5", CultureInfo.InvariantCulture));
         }
     }
 }
