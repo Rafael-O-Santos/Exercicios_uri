@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\uri_1000\uri_1000.csproj" />
-  </ItemGroup>
-
 </Project>

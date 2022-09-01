@@ -1,0 +1,23 @@
+﻿using System;
+using System.Globalization;
+namespace uri_1013
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] valores = Console.ReadLine().Split();
+
+            int A = int.Parse(valores[0], CultureInfo.InvariantCulture);
+            int B = int.Parse(valores[0], CultureInfo.InvariantCulture);
+            int C = int.Parse(valores[0], CultureInfo.InvariantCulture);
+
+            //Formulas
+
+            double MAB = (A + B + Math.Abs(A - B)) / 2;
+            double MABC = (MAB + C + Math.Abs(MAB- C)) / 2;
+
+            Console.WriteLine(+MABC + " eh o maior");
+        }
+    }
+}
