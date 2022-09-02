@@ -9,8 +9,8 @@ namespace uri_1013
             string[] valores = Console.ReadLine().Split();
 
             int A = int.Parse(valores[0], CultureInfo.InvariantCulture);
-            int B = int.Parse(valores[0], CultureInfo.InvariantCulture);
-            int C = int.Parse(valores[0], CultureInfo.InvariantCulture);
+            int B = int.Parse(valores[1], CultureInfo.InvariantCulture);
+            int C = int.Parse(valores[2], CultureInfo.InvariantCulture);
 
             //Formulas
 
